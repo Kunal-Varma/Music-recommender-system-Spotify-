@@ -86,8 +86,10 @@ def play():
         'part': 'id,snippet',
         'maxResults': 1,
         'type': 'video',
-        'key': os.getenv('YOUTUBE_API_KEY')
+        #'key': os.getenv('YOUTUBE_API_KEY')
+        'key': 'AIzaSyC3AIVZKIsXEOMhfApwaw9xVoaD0Nf0Bx4'
     })
+    print(get_video_id)
 
     return jsonify({
         "id": get_video_id['items'][0]['id']['videoId']
@@ -100,5 +102,5 @@ def make_request(url, params):
 
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 33507))
+    port = int(os.environ.get('PORT', 5000))
     app.run(debug=False, host='0.0.0.0', port=port)

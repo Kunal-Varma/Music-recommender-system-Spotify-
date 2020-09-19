@@ -201,5 +201,6 @@ form.addEventListener('submit', e => {
   searchRecommendations(e)
 });
 
+
 const ele = document.getElementById('findRecommendations')
 ele.onclick = searchRecommendations;
