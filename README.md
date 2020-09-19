@@ -23,12 +23,15 @@ Step 8: export SPOTIFY_CLIENT_SECRET="your key"
 
 Step 9: python app.py
 
-##Output
+## Output
 
+# Recommendation on basis of Track
 ![Screenshot_2020-09-19 Music Recommendation(2)](https://user-images.githubusercontent.com/17935364/93670759-5def1780-fabb-11ea-99ae-4e6c16d09626.png)
 
+# Recommendation on basis of Genre
 ![Screenshot_2020-09-19 Music Recommendation](https://user-images.githubusercontent.com/17935364/93670766-66475280-fabb-11ea-9b50-9d5eac571a5b.png)
 
+# Recommendation on basis of Artist
 ![Screenshot_2020-09-19 Music Recommendation(1)](https://user-images.githubusercontent.com/17935364/93670762-60ea0800-fabb-11ea-8013-a74d962f1154.png)
 
 
