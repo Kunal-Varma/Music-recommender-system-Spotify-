@@ -87,7 +87,7 @@ def play():
         'maxResults': 1,
         'type': 'video',
         #'key': os.getenv('YOUTUBE_API_KEY')
-        'key': 'AIzaSyC3AIVZKIsXEOMhfApwaw9xVoaD0Nf0Bx4'
+        'key': 'your_key'
     })
     print(get_video_id)
 
